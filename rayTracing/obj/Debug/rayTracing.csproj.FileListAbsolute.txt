@@ -1,0 +1,12 @@
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\bin\Debug\rayTracing.exe.config
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\bin\Debug\rayTracing.exe
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\bin\Debug\rayTracing.pdb
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.csprojAssemblyReference.cache
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.Properties.Resources.resources
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.csproj.GenerateResource.cache
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.csproj.CoreCompileInputs.cache
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.exe
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.pdb
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\poleb\Desktop\CG\rayTracing\rayTracing\obj\Debug\rayTracing.csproj.CopyComplete
