@@ -15,15 +15,24 @@ namespace rayTracing.Utility
         private const int RecursionDepth = 3;
         private const int Matt = -1;
         private const float AirRefraction = 1f;
+        private const float CameraRotationAngle = -45;
 
         public ScenePainter()
         {
             Converter = new PointsConverter();
-            Camera = new Camera(new Vector3(3, 0, 1),
-                new[,] {{0.7071f, 0, -0.7071f}, {0, 1, 0}, {0.7071f, 0, 0.7071f}});
             Canvas = new Canvas(400, 400);
             View = new View(1, 1, 1);
             Scene = Scene.GetDefaultScene();
+
+            var angleInRadian = (Math.PI / 180) * CameraRotationAngle;
+            var rotation = new[,]
+            {
+                {(float)Math.Cos(angleInRadian), 0, (float)Math.Sin(angleInRadian)},
+                {0, 1, 0},
+                {-(float)Math.Sin(angleInRadian), 0, (float)Math.Cos(angleInRadian)}
+            };
+
+            Camera = new Camera(new Vector3(3, 0, 1), rotation);
         }
 
         private Scene Scene { get; }
